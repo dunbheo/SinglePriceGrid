@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  font-family: "karla", sans-serif;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.75em;
+}
+
+.subscription-container {
+  width: 640px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.join-our-community {
+  background-color: white;
+  color: hsl(218, 22%, 67%);
+  padding: 45px 40px 45px 40px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lower-cards {
+  display: inline-flex;
+  width: 100%;
+}
+
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  height: 180px;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cost {
+  font-size: 2em;
+}
+
+.why-us {
+  background-color: hsl(179, 62%, 48%);
+  color: white;
+  height: 180px;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-us ul {
+  color: hsl(204, 43%, 93%);
+  list-style: none;
+}
+
+.why-us ul li {
+  font-size: 0.9em;
+  font-weight: 200;
+  color: hsl(204, 43%, 93%);
+  margin-top: 3px;
+}
+
+.sign-up {
+  background-color: hsl(71, 73%, 54%);
+  text-align: center;
+  padding: 16px 0px 16px 0px;
+  border-radius: 8px;
+}
+
+.green {
+  color: hsl(71, 73%, 54%);
+}
